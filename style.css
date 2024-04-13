@@ -1,0 +1,99 @@
+.bg-theme {
+	background-color: #ba4a4a;
+}
+
+.nav-link {
+	color:#fff;
+}
+
+#brandname {
+	font-size: 20px;
+	font-weight: bold
+}
+
+.jumbotron {
+	clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+}
+
+#about h1, #gallery h1, #contact h1{
+	text-align: center;
+}
+
+#about span, #gallery span, #contact span {
+	color: #43bab4;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+#about hr, #gallery hr, #contact hr {
+	color: #43bab4;
+	border:1px solid #43bab4;
+	width: 30%;
+}
+
+#about *{
+	text-align: justify;
+	font-family: tahoma;
+}
+
+#about ul {
+	list-style: none;
+	margin: 0;
+	padding:0;
+}
+
+figure {
+	transition: transform 0.5s;
+}
+
+figure:hover {
+	transform:scale(1.2);
+
+}
+
+figcaption {
+	text-align: center;
+	font-size: 25px;
+	font-weight: bold;
+	font-family: Courier new;
+	text-transform: uppercase;
+	color: darkblue;
+}
+
+
+#about  i {
+	color: #933e3e;
+}
+
+#about ul li{
+	line-height: 30px;
+}
+
+#contact input {
+	margin-top: 20px;
+}
+
+textarea {
+	margin-top: 20px;
+}
+#contact .col-md-6 {
+	margin-left:0;
+	padding-left:  0;
+}
+
+
+#footer ul {
+	list-style: none;
+	margin:0;
+	padding:0;
+}
+
+#footer #socialicons {
+	text-align: center;
+	margin-top: 100px;
+}
+
+#footer #socialicons li {
+	display: inline;
+	color:red;
+}
